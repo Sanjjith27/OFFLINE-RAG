@@ -1,0 +1,34 @@
+Universal RAG - Product Overview
+==================================
+
+Universal RAG is a Retrieval-Augmented Generation system designed to help users
+extract insights from a variety of document formats.
+
+Use Cases
+---------
+1. Legal Document Review: Lawyers can upload contracts, briefs, and case files.
+   The system highlights clauses, flags ambiguities, and answers specific legal questions
+   without requiring the lawyer to read every page.
+
+2. Academic Research Assistance: Researchers upload papers, theses, and reports.
+   The system synthesises findings across multiple sources, identifies gaps, and answers
+   domain-specific questions grounded in the uploaded literature.
+
+3. Enterprise Knowledge Base: Companies upload internal documentation, SOPs, and
+   training manuals. Employees ask plain-English questions and receive accurate,
+   cited answers instead of searching through hundreds of files.
+
+Features
+--------
+- Supports PDF, DOCX, PPTX, TXT, CSV, XLSX, XLS, JSON, PNG, JPG, and JPEG files.
+- Uses the all-MiniLM-L6-v2 embedding model for semantic vector search.
+- Powered by Ollama granite4.2:3b for offline, private LLM generation.
+- Stores chunks in ChromaDB with persistent storage.
+- Reranker promotes the most relevant chunks before LLM generation.
+
+Architecture
+------------
+The system consists of three main components:
+  1. Ingestion layer  - loaders, chunker, and embedding pipeline.
+  2. Retrieval layer  - ChromaDB vector store and keyword reranker.
+  3. Generation layer - Ollama LLM with dynamic prompt templates.

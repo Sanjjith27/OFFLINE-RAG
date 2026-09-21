@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Proposal</title>
+    
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+    
+    .proposal-container {
+        width: 80%;
+        margin: 40px auto;
+        text-align: center;
+    }
+    
+    #proposal-btn {
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    #proposal-message {
+        margin-top: 20px;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="proposal-container">
+        <h1>Missing you a lot </h1>
+        <button id="proposal-btn">Click Here</button>
+        <div id="proposal-message" class="hidden">
+            <p> Love u soo muchh rakshu </p>
+            <p>Rhomba miss panna vekura</p>
+            <p>Seekaram enaya marriage paniko</p>
+        </div>
+    </div>
+
+    <script>document.getElementById('proposal-btn').addEventListener('click', function() {
+        document.getElementById('proposal-message').classList.remove('hidden');
+    });
+    </script>
+</body>
+</html>

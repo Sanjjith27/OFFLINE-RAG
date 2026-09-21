@@ -1,0 +1,3 @@
+Universal RAG is a system that allows users to upload different types of documents and ask questions about their contents.
+
+The system converts documents into text, creates embeddings, stores them in a vector database, and retrieves relevant information when the user asks a question.

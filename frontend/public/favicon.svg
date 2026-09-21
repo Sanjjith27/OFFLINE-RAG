@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+  <!-- White-dominant badge container with crisp border for visibility on any tab bar -->
+  <rect width="28" height="28" rx="7" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+  
+  <!-- Exact robot logo: White-dominant fill with dark outlines and eyes -->
+  <g transform="translate(2, 2)" stroke="#111827" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Body with white fill -->
+    <rect x="3" y="11" width="18" height="10" rx="2" fill="#ffffff" />
+    <!-- Antenna circle with white fill -->
+    <circle cx="12" cy="5" r="2" fill="#ffffff" />
+    <!-- Antenna stem -->
+    <path d="M12 7v4" />
+    <!-- Dark eyes -->
+    <line x1="8" y1="16" x2="8" y2="16" stroke="#111827" stroke-width="2.4" />
+    <line x1="16" y1="16" x2="16" y2="16" stroke="#111827" stroke-width="2.4" />
+  </g>
+</svg>

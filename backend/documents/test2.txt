@@ -1,0 +1,2 @@
+This is the second document in Universal RAG.
+It contains information about multiple document support.
